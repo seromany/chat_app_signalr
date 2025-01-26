@@ -47,6 +47,11 @@ class ApiController {
 2. If you are going to use user login, edit the login, register, loginStatus, getUser methods in the user_controller.dart file according to your own login operations.
 3. Edit the request and listen methods in the hub_controller.dart file according to your own socket operations.
 
+## For Firebase notifications
+
+1. Create a firebase project via <a href="https://console.firebase.google.com/"> Firebase console. </a> 
+2. Follow the necessary steps.
+
 ## Required flutter dependencies
 
 ```Dart
