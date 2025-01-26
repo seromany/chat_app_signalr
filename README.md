@@ -3,6 +3,6 @@
 
 <table>
 <tr>
-    <td style="border: 1px solid black;"><img src="https://github.com/seromany/chat_app_signalr/tree/main/exampleScreens/loginScreen.png" width="200"> </td>
+    <td style="border: 1px solid black;"><img src="/exampleScreens/loginScreen.png" width="200"> </td>
 </tr>
 </table>
