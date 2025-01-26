@@ -1,5 +1,7 @@
 # chat_app_signalr
- A chat application using .NET SignalR technology developed with Flutter.
+A chat application using .NET SignalR technology developed with Flutter.
+
+.NET Core SignalR is an open source library developed by Microsoft that provides real-time communication.
 
 <table>
 <tr>
@@ -12,6 +14,38 @@
     <td style="border: 1px solid black;"><img src="/exampleScreens/selectPersonDialog.png" width="200"> </td>
 </tr>
 </table>
+
+
+# How Use
+
+If you do not have a SignalR project that you have developed yourself, you can use the <a href="https://github.com/seromany/chat_app_server"> SignalR Server</a> project that I have developed.
+
+## Example for my own SignalR project
+
+1. Download the <a href="https://github.com/seromany/chat_app_server"> server project</a> and run it on your own computer.
+2. If the server project is running on a different port, change the baseurl value in the api_controller.dart file.
+
+```Dart
+class ApiController {
+  static String baseurl =
+      "https://10.0.2.2:7073/"; //Local Server (This line local server port)
+}
+```
+
+## Example for your own SignalR project
+
+1. Change the server url value in the api_controller.dart file
+
+```Dart
+class ApiController {
+  static String baseurl =
+      "https://10.0.2.2:7073/"; //Local Server (This line local server port)
+}
+```
+2. If you are going to use user login, edit the login, register, loginStatus, getUser methods in the user_controller.dart file according to your own login operations.
+3. Edit the request and listen methods in the hub_controller.dart file according to your own socket operations.
+
+## Required flutter dependencies
 
 ```Dart
 dependencies:
