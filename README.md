@@ -3,6 +3,8 @@ A chat application using .NET SignalR technology developed with Flutter.
 
 .NET Core SignalR is an open source library developed by Microsoft that provides real-time communication.
 
+Tested on .NET 9.0 version
+
 <table>
 <tr>
     <td style="border: 1px solid black;"><img src="/exampleScreens/loginScreen.png" width="200"> </td>
