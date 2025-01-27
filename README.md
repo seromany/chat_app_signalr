@@ -17,12 +17,6 @@ Tested on .NET 9.0 version
 </tr>
 </table>
 
-[![Watch the video](/exampleScreens/loginScreen.png)](/exampleScreens/chatApp.mp4)
-
-
-
-
-
 # How Use
 
 If you do not have a SignalR project that you have developed yourself, you can use the <a href="https://github.com/seromany/chat_app_server"> SignalR Server</a> project that I have developed.
