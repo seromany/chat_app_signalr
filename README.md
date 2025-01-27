@@ -17,10 +17,10 @@ Tested on .NET 9.0 version
 </tr>
 </table>
 
-<video width="270" height="480" autoplay>
-  <source src="/exampleScreens/chatApp.mp4" type="video/mp4">
-   <source src="/exampleScreens/chatApp.ogg" type="video/ogg">
-</video>
+[![Watch the video](/exampleScreens/loginScreen.png)](/exampleScreens/chatApp.mp4)
+
+
+
 
 
 # How Use
